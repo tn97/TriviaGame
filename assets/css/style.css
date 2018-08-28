@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "ferrum";
+  src: url("../fonts/ferrum.otf");
+}
+
+* {
+  font-family: "ferrum";
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #654ea3;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+}
+
+.header-trivia {
+  margin-top: 20px;
+  font-size: 45px;
+  left: 30%;
+  position: relative;
+}
+
+#game-information {
+  display: none;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: none;
+  text-align: center;
+}
+
+#btn-instructions {
+  width: 110px;
+  height: 50px;
+  left: 40%;
+  position: absolute;
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  
+}
+
+#btn-start {
+  width: 110px;
+  height: 50px;
+  left: 40%;
+  margin-top: 300px;
+  position: absolute;
+  background: #F0F2F0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
