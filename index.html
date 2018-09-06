@@ -18,28 +18,44 @@
 
   <div class="row game-info-row">
     <div class="col-md-12 col-sm-12">
-      <h3 id="game-information">This game will feature:<br></h3>
+      <h3 id="game-information">This game will feature questions about:<br></h3>
       <ul id="ul-list">
         <li>Final Fantasy 6</li>
         <li>Final Fantasy 7</li>
         <li>Final Fantasy 10</li>
         <li>Final Fantasy 13</li>
         <li>Final Fantasy 15</li>
+        <h4>Try to click the correct answer!</h4>
       </ul>
     </div>
   </div>
 
-  <div class="col-md-12 col-sm-12">
-    <button class="btn" id="btn-instructions">Instructions</button>
+  <div class="row btn-location">
+    <button type="button" class="btn" id="btn-instructions">Instructions</button>
   </div>
-  <div class="col-md-12 col-sm-12">
-    <button class="btn" id="btn-start">Start</button>
+  <div class="row">
+    <button type="button" class="btn" id="btn-start">Start</button>
   </div>
 
   <div class="col-md-12 col-sm-12">
-    <h3 id="game-Question"></h3>
-    <ul id="game-Choices"></ul>
+    <div class="row">
+      <div id="timeLeft"></div>>
+    </div>
+
+    <div class="question"></div>
+    <div class="answerList"></div>
   </div>
+  <!-- Answer Page -->
+  <div id="message"></div>
+  <div id="correctAnswer"></div>
+  <div id="gif"></div>
+  <!-- Scoreboard -->
+  <div id="finalMessage"></div>
+  <div id="correctAnswers"></div>
+  <div id="incorrectAnswers"></div>
+  <div id="unanswered"></div>
+  <div id="startOverBtn"></div>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script type="text/javascript" src="assets/javascript/app.js"></script>
