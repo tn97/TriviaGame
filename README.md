@@ -1,1 +1,1 @@
-# TriviaGame
+This is my trivia Game! it's based off of the Final Fantasy series. Please enjoy!

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trivia Game!</title>
+  <link rel="stylesheet" type=text/css href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="col-md-12 col-sm-12">
+    <h1 class="header-trivia">FINAL FANTASY TRIVIA</h1>
+  </div>
+
+  <div class="row game-info-row">
+    <div class="col-md-12 col-sm-12">
+      <h3 id="game-information">This game will feature questions about:<br></h3>
+      <ul id="ul-list">
+        <li>Final Fantasy 6</li>
+        <li>Final Fantasy 7</li>
+        <li>Final Fantasy 10</li>
+        <li>Final Fantasy 13</li>
+        <li>Final Fantasy 15</li>
+        <h4>Try to click the correct answer!</h4>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row btn-location">
+    <button type="button" class="btn" id="btn-instructions">Instructions</button>
+  </div>
+  <div class="row">
+    <button type="button" class="btn" id="btn-start">Start</button>
+  </div>
+
+  <div class="col-md-12 col-sm-12">
+    <div class="row">
+      <div id="timeLeft"></div>>
+    </div>
+
+    <div class="question"></div>
+    <div class="answerList"></div>
+  </div>
+  <!-- Answer Page -->
+  <div id="message"></div>
+  <div id="correctAnswer"></div>
+  <div id="gif"></div>
+  <!-- Scoreboard -->
+  <div id="finalMessage"></div>
+  <div id="correctAnswers"></div>
+  <div id="incorrectAnswers"></div>
+  <div id="unanswered"></div>
+  <div id="startOverBtn"></div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+</body>
+
+</html>
