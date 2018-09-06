@@ -177,14 +177,14 @@ function answerPage() {
 
   var rightAnswerText = triviaQuestions[currentQuestion].answerList[triviaQuestions[currentQuestion].answer];
   var rightAnswerIndex = triviaQuestions[currentQuestion].answer;
-  $("#gif").html("<img src = 'assets/images/ff7Victory.gif' width= = '400px'>");
+  $("#gif").html("<img src = 'assets/images/ff7Victory.gif' width = '400px'>");
   //checks to see if correct, incorrect, or unanaswered
   if ((userSelect == rightAnswerIndex) && (answered == true)) {
     correctAnswer++;
     $("#message").html(messages.correct);
   } else if ((userSelect != rightAnswerIndex) && (answered == true)) {
     incorrectAnswer++;
-    $("#message").html("messages.incorrect");
+    $("#message").html(messages.incorrect);
     $("correctedAnswer").html("The correct answer was: " + rightAnswerText);
   } else {
     unanswered++;
